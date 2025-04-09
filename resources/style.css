@@ -1,0 +1,131 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+.container {
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  .phone-frame {
+    position: relative;
+    width: 300px;
+    margin: 0 auto;
+  }
+
+  .main-video {
+    position: absolute;
+  top: 11.5%;
+  left: 12%;
+  width: 76%;
+  height: 77%;
+  object-fit: cover;
+  border-radius: 20px;;
+  }
+
+  h1 {
+    margin: 20px 0;
+    font-size: 50px;
+    font-weight: normal;
+    text-align: center;
+    
+  }
+  h2 {
+    margin: 20px 0;
+    font-weight: 300;
+    font-size: 42px;
+}
+.download-link {
+    color: aquamarine;
+    font-size: 16px;
+    display: inline-block;
+    font-weight: bold;
+    text-decoration: none;
+    margin-bottom: 15px;
+}
+.description {
+    font-size: 21px;
+    color: gray;
+    max-width: 600px;
+}
+.landscape-image {
+    width: 100%;
+  max-width: 800px;
+  margin: 30px 0;
+  border-radius: 9px;
+}
+.coming-soon {
+    margin-top: 40px;
+  }
+  .phone-icon {
+    font-size: 30px;
+    margin-bottom: 10px;
+    flex-direction: column;
+    
+    
+  }
+  .phone-icon img {
+    width: 60px;
+    height: auto;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .phone-icon img:hover {
+    transform: scale(1.1);
+  }
+  
+  footer {
+    color: gray;
+    text-align: right;
+    margin-top: 30px;
+  }
+
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 1.6rem;
+    }
+  
+    h2 {
+      font-size: 1.3rem;
+    }
+  
+    .video {
+      max-width: 100%;
+    }
+  
+    .landscape-image {
+      max-width: 100%;
+    }
+  
+    .description {
+      font-size: 0.95rem;
+    }
+  
+    .phone-icon img {
+      width: 50px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    h1 {
+      font-size: 1.3rem;
+    }
+  
+    h2 {
+      font-size: 1.1rem;
+    }
+  
+    .download-link {
+      font-size: 0.95rem;
+    }
+  
+    .description {
+      font-size: 0.9rem;
+    }
+  }
